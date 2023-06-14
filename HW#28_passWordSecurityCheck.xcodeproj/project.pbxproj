@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D305D3B22A2F5004008A2D0E /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D305D3B12A2F5004008A2D0E /* ForgetPasswordViewController.swift */; };
+		D305D3B42A2F5C92008A2D0E /* otpVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D305D3B32A2F5C92008A2D0E /* otpVerificationViewController.swift */; };
+		D305D3B62A32ED18008A2D0E /* ResetPassowordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D305D3B52A32ED18008A2D0E /* ResetPassowordViewController.swift */; };
+		D305D3B82A32ED60008A2D0E /* PasswordChangedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D305D3B72A32ED60008A2D0E /* PasswordChangedViewController.swift */; };
+		D31EF5492A2E2CE400305A8E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31EF5482A2E2CE400305A8E /* WelcomeViewController.swift */; };
+		D31EF54B2A2E354900305A8E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31EF54A2A2E354900305A8E /* RegisterViewController.swift */; };
+		D33490A82A36CAFD00FC884E /* LoginSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33490A72A36CAFD00FC884E /* LoginSuccessViewController.swift */; };
 		D39360D82A2CC50400EA1E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39360D72A2CC50400EA1E5B /* AppDelegate.swift */; };
 		D39360DA2A2CC50400EA1E5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39360D92A2CC50400EA1E5B /* SceneDelegate.swift */; };
-		D39360DC2A2CC50400EA1E5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39360DB2A2CC50400EA1E5B /* ViewController.swift */; };
 		D39360DF2A2CC50400EA1E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39360DD2A2CC50400EA1E5B /* Main.storyboard */; };
 		D39360E12A2CC50600EA1E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39360E02A2CC50600EA1E5B /* Assets.xcassets */; };
 		D39360E42A2CC50600EA1E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39360E22A2CC50600EA1E5B /* LaunchScreen.storyboard */; };
+		D39360EC2A2CC52500EA1E5B /* PassCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39360EB2A2CC52500EA1E5B /* PassCodeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D305D3B12A2F5004008A2D0E /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		D305D3B32A2F5C92008A2D0E /* otpVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otpVerificationViewController.swift; sourceTree = "<group>"; };
+		D305D3B52A32ED18008A2D0E /* ResetPassowordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassowordViewController.swift; sourceTree = "<group>"; };
+		D305D3B72A32ED60008A2D0E /* PasswordChangedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChangedViewController.swift; sourceTree = "<group>"; };
+		D31EF5482A2E2CE400305A8E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D31EF54A2A2E354900305A8E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D33490A72A36CAFD00FC884E /* LoginSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccessViewController.swift; sourceTree = "<group>"; };
 		D39360D42A2CC50400EA1E5B /* HW#28_passWordSecurityCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW#28_passWordSecurityCheck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39360D72A2CC50400EA1E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D39360D92A2CC50400EA1E5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D39360DB2A2CC50400EA1E5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D39360DE2A2CC50400EA1E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D39360E02A2CC50600EA1E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D39360E32A2CC50600EA1E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D39360E52A2CC50600EA1E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39360EB2A2CC52500EA1E5B /* PassCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCodeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,11 @@
 		D39360CB2A2CC50400EA1E5B = {
 			isa = PBXGroup;
 			children = (
+				D305D3B72A32ED60008A2D0E /* PasswordChangedViewController.swift */,
+				D305D3B52A32ED18008A2D0E /* ResetPassowordViewController.swift */,
+				D305D3B32A2F5C92008A2D0E /* otpVerificationViewController.swift */,
+				D305D3B12A2F5004008A2D0E /* ForgetPasswordViewController.swift */,
+				D31EF54A2A2E354900305A8E /* RegisterViewController.swift */,
 				D39360D62A2CC50400EA1E5B /* HW#28_passWordSecurityCheck */,
 				D39360D52A2CC50400EA1E5B /* Products */,
 			);
@@ -58,8 +77,10 @@
 			children = (
 				D39360D72A2CC50400EA1E5B /* AppDelegate.swift */,
 				D39360D92A2CC50400EA1E5B /* SceneDelegate.swift */,
-				D39360DB2A2CC50400EA1E5B /* ViewController.swift */,
 				D39360DD2A2CC50400EA1E5B /* Main.storyboard */,
+				D33490A72A36CAFD00FC884E /* LoginSuccessViewController.swift */,
+				D31EF5482A2E2CE400305A8E /* WelcomeViewController.swift */,
+				D39360EB2A2CC52500EA1E5B /* PassCodeViewController.swift */,
 				D39360E02A2CC50600EA1E5B /* Assets.xcassets */,
 				D39360E22A2CC50600EA1E5B /* LaunchScreen.storyboard */,
 				D39360E52A2CC50600EA1E5B /* Info.plist */,
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39360DC2A2CC50400EA1E5B /* ViewController.swift in Sources */,
 				D39360D82A2CC50400EA1E5B /* AppDelegate.swift in Sources */,
+				D31EF54B2A2E354900305A8E /* RegisterViewController.swift in Sources */,
+				D33490A82A36CAFD00FC884E /* LoginSuccessViewController.swift in Sources */,
+				D31EF5492A2E2CE400305A8E /* WelcomeViewController.swift in Sources */,
+				D39360EC2A2CC52500EA1E5B /* PassCodeViewController.swift in Sources */,
+				D305D3B22A2F5004008A2D0E /* ForgetPasswordViewController.swift in Sources */,
+				D305D3B62A32ED18008A2D0E /* ResetPassowordViewController.swift in Sources */,
+				D305D3B42A2F5C92008A2D0E /* otpVerificationViewController.swift in Sources */,
+				D305D3B82A32ED60008A2D0E /* PasswordChangedViewController.swift in Sources */,
 				D39360DA2A2CC50400EA1E5B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
